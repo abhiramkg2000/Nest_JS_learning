@@ -1,0 +1,18 @@
+button {
+  background-color: aliceblue;
+  color:#0747a1;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  height: 30px;
+  margin-top: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+button:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
